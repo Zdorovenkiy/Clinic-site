@@ -1,0 +1,237 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #FFC6C6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: space-between;
+}
+a {
+    text-decoration: none;
+}
+header {
+    background: #A63A3A;
+    color: white;
+    position: fixed;
+    width: 100%;
+}
+header > .container {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    max-width: 1480px;
+    font-size: 24px;
+}
+header > .container div {
+    display: flex;
+    align-items: center;
+}
+.header__logo {
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+}
+.header__logo  img {
+    width: 75px;
+}
+.header__navigation > ul {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    height: 100%;
+    margin: 0;
+}
+.header__navigation > ul > li {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+.header__navigation > ul > li:hover {
+    background: #991f1f;
+    border-top: 1px white solid;
+    transition: 300ms;
+
+}
+.header__log {
+    gap: 20px;
+}
+.header__log > div {
+    display: flex;
+    height: 100%;
+    padding: 0 10px;
+    align-items: center;
+}
+.header__log > div:hover {
+    background: #991f1f;
+    border-top: 1px white solid;
+    transition: 300ms;
+}
+main {
+    height: 100%;
+    padding: 100px 0 10px;
+    color: white;
+}
+main section {
+    margin: 5px 0;
+}
+main .container {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 10px;
+    max-width: 1480px;
+    font-size: 24px;
+    background: #fc6a6a;
+    border-radius: 12px;
+}
+.main__logo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.main__logo img {
+    width: 800px;
+}
+.about .container {
+    flex-direction: column;
+    text-align: center;
+}
+.about img {
+    width: 60px;
+}
+.about__card {
+    display: flex;
+    justify-content: space-between;
+}
+
+.employee .container {
+    flex-direction: column;
+    text-align: center;
+}
+.employee img {
+    width: 500px;
+}
+.employee__card div {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+.employee__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+    width: 600px;
+}
+.employee__info p{
+    margin: 2px 0;
+}
+.employee__info-name {
+    font-size: 32px;
+    font-weight: 600;
+}
+.employee__info-job {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 15px !important;
+}
+.employee__info-biography {
+    text-align: justify;
+    font-style: oblique;
+}
+.services .container {
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 75px;
+}
+.services .container > div {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.services__card {
+    max-width: 500px;
+    padding: 5px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 3px white solid;
+    border-radius: 12px;
+}
+.services__card p {
+    margin: 7px 0;
+}
+.services__card-info {
+    text-align: justify;
+}
+button {
+    max-width: 150px;
+    width: 100%;
+    height: 40px;
+    background: #A63A3A;
+    border: 2px #A63A3A solid;
+    border-radius: 12px;
+    color: white;
+    font-size: 18px;
+}
+button:hover {
+    background: #991f1f;
+    transition: 300ms;
+}
+
+
+footer {
+    background: #A63A3A;
+    color: white;
+}
+footer > .container {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    max-width: 1480px;
+    font-size: 24px;
+}
+.footer__logo {
+    display: flex;
+    align-items: center;
+    font-size: 32px;
+    font-weight: 600;
+}
+.footer__logo > img {
+    width: 175px;
+}
+.footer__logo > p {
+    max-width: 500px;
+}
+
+.form .container {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 10px;
+    max-width: 1480px;
+    font-size: 24px;
+    background: #fc6a6a;
+    border-radius: 12px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    gap: 10px;
+}
+input {
+    height: 30px;
+    border-radius: 12px;
+    outline:none;
+}
+input[type=date] {
+    width: 120px;
+}
+button {
+    align-self: flex-end;
+}
